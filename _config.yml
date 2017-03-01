@@ -1,0 +1,21 @@
+name: Ewerton Nascimento
+description: 
+meta_description: "Ewerton Nascimento"
+
+markdown: kramdown
+highlighter: rouge
+
+baseurl: '/'
+
+logo: false
+paginate: 15
+permalink: /:title
+
+
+# Details for the RSS feed generator
+url:            'ewertonorg.github.io'
+author:         'Ewerton Nascimento'
+
+gems:
+  - jekyll-paginate
+  - jekyll-gist

@@ -1,6 +1,8 @@
 name: Ewerton Nascimento
-description: 
+title: Ewerton Nascimento
+description: This is my blog where I talk about software development.
 meta_description: "Ewerton Nascimento"
+image: /assets/images/profile.png
 
 markdown: kramdown
 highlighter: rouge
@@ -11,7 +13,8 @@ logo: false
 paginate: 15
 permalink: /:title
 
-
+twitter:
+  username: ewertonorg
 # Details for the RSS feed generator
 url:            'ewertonorg.github.io'
 author:         'Ewerton Nascimento'

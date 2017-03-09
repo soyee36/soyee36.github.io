@@ -5,7 +5,7 @@ date:   2017-02-28 22:17:00
 categories: beginner
 ---
 
-Sometimes we write programs wich contain literals numeric. There is not strange about this. However, very large numbers can be very difficult to read.
+Sometimes we write programs which contain literals numeric. Large numbers can be very difficult to read.
 
 How many zeroes are there?
 

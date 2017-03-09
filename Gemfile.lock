@@ -198,6 +198,7 @@ DEPENDENCIES
   github-pages
   jekyll-gist
   jekyll-paginate
+  jekyll-seo-tag
 
 BUNDLED WITH
    1.13.6

@@ -19,3 +19,4 @@ author:         'Ewerton Nascimento'
 gems:
   - jekyll-paginate
   - jekyll-gist
+  - jekyll-seo-tag

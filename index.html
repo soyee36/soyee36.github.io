@@ -1,11 +1,12 @@
 ---
 layout: default
-title: Home
+title: Ewerton Nascimento
 description: This is my blog where I talk about software development. 
 cover: true
 about: 'about.html'
 project: 'projects.html'
 archives: 'archives.html'
+image: /assets/images/profile.png
 ---
 
 <header class="site-head" {% if page.cover %} style="background-image: url(assets/images/header.png)"{% endif%}>
@@ -20,10 +21,10 @@ archives: 'archives.html'
       <h2 class="blog-description"> 
       {{ site.description }}
       {% if page.about %} 
+      </h2>
       <a href='{{site.baseurl}}{{ page.about }}'> About me</a> |
       {% if page.archives %} <a href='{{ site.baseurl }}{{ page.archives }}'> Posts</a>{% endif %}
       {% endif %}
-      </h2>
     </div>
   </div>
 </header>

@@ -1,14 +1,12 @@
-﻿tags:
-- Github_Pages
-- Jekyll
-- Blog
+﻿tags: Github_Pages, Jekyll, Blog
 
-categories:
-- Tech
+categories: blog
 
 Also published in https://soandcandy.us
+
 CC 4.0 BY-SA
-----
+
+
 
 ## 利用Github Pages和Jekyll搭建个人博客 ##
 
@@ -99,6 +97,6 @@ Jekyll则是为了方便我们调试、预览博客效果的本地环境。
     git commit -m "你要说的话"
     git push origin master
     ```
-    
+   
 8. 收工
 

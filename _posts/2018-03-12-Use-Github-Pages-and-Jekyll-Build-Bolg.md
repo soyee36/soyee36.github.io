@@ -1,4 +1,10 @@
-﻿tags:Github_Pages, Jekyll, Blog
+﻿tags:
+- Github_Pages
+- Jekyll
+- Blog
+
+categories:
+- Tech
 
 Also published in https://soandcandy.us
 CC 4.0 BY-SA

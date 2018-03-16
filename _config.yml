@@ -7,6 +7,9 @@ image: /assets/images/profile.png
 markdown: kramdown
 highlighter: rouge
 
+kramdown:
+  input: GFM
+
 baseurl: '/'
 
 logo: false

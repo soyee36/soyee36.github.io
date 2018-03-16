@@ -12,6 +12,9 @@ CC 4.0 BY-SA
 
 ----
 
+*toc
+{:toc}
+
 
 ## 基于jekyll写作的若干手记 ##
 
@@ -68,7 +71,6 @@ Github Pages搭建的BLOG是基于jekyll，在jekyll上书写有一些特别的�
 jekyll自带语法高亮，如下面的例子所示：
 
 {% highlight ruby %}
-```
    def show
     @widget = Widget(params[:id])
     respond_to do |format|
@@ -76,12 +78,12 @@ jekyll自带语法高亮，如下面的例子所示：
       format.json { render json: @widget }
     end
   end
-```
 {% endhighlight %}
 
 
 **注：貌似和Markdown语法冲突了。**
 
+优先表达jekyll自带的语法，Markdown语法会不生效，预览不出来。
 
 暂时这么多。
 

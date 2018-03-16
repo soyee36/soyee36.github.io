@@ -12,7 +12,7 @@ CC 4.0 BY-SA
 
 ----
 
-*toc
+* TOC
 {:toc}
 
 

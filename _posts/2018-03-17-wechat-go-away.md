@@ -1,7 +1,7 @@
 ---
 tags: Wechat Open_Web
-title:Say 微信没什么错，我们只是不合适
-excerpt:Organize the world’s information and make it universally accessible and useful.
+title: 微信没什么错，我们只是不合适
+excerpt: Organize the world's information and make it universally accessible and useful.
 ---
 
 

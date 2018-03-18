@@ -1,6 +1,6 @@
 ---
 tags: Wechat Open_Web
-title:微信没什么错，我们只是不合适
+title:Say Goodbye to Wechat and all those things
 excerpt:“Organize the world’s information and make it universally accessible and useful.”
 ---
 

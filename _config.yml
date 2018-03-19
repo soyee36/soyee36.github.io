@@ -22,10 +22,8 @@ twitter:
 url:            'soyee36.github.io'
 author:         'So Yee'
 
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-gist
   - jekyll-seo-tag
-  
-plugins:
   - jemoji

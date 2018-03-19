@@ -1,7 +1,7 @@
 ---
 tags: Wechat Open_Web
 title: 微信没什么错，我们只是不合适
-excerpt: Organize the world's information and make it universally accessible and useful.
+excerpt: Google的Mission Stament：Organize the world's information and make it universally accessible and useful.
 ---
 
 
@@ -13,18 +13,22 @@ CC 4.0 BY-SA
 
 去年生日的时候，在微信公众号上写了最后一篇文章。作别的时候只有简单告诉一些订阅的读者。
 
-是的。我不喜欢那类文章。
+是的。我不喜欢告别，也不喜欢那类文章。
+
+离开的理由很简单：**讨厌**。
 
 
 ### 我讨厌微信的什么 ###
 
-虽然我真的很讨厌微信公众号这种封闭的生态圈。
+微信公众号封闭的生态圈。
 
 在微信公众号里，作者没有权利通过url自由链接到互联网上的其它文章、音频、视频与文件。如果你有这个需要，你只能把该类资料上传到腾讯的相关网站。
 
 傻逼。
 
+
 我也很讨厌高比例含有低幼、反智、无聊内容的平台。
+
 
 我最讨厌的，是草泥马的这个平台自己设定了无数自我监管内容、敏感字，使一些根本与时政无关的文章，也变得神经兮兮起来。
 
@@ -33,13 +37,13 @@ CC 4.0 BY-SA
 
 ### 围墙 ###
 
-既然看不顺眼，就走吧。呆在围墙里实在无趣，Open Web才是我们追求的世界。
 
 Google [About the company](https://www.google.com/about/our-company/)
 
 > Organize the world’s information and make it universally accessible and useful.
 
 
+既然看不顺眼，就走吧。呆在围墙里实在无趣，Open Web才是我们追求的世界。
 其实，封闭的平台不止只有微信。在中国，每一家所谓的互联网公司，发展到一定程度，都无一例外地变成一座围墙围起来的`自留地`。
 
 ##### 云上贵州 #####
@@ -70,12 +74,11 @@ Google [About the company](https://www.google.com/about/our-company/)
 
 
 
-`Dean of science fiction writers`被成为`科幻先生`的海因莱因，对于科幻小说的社会意义，曾与Dalgliesh有过一场争辩。他说，任何关于机器的小说，如果不去揣测机器周遭社会中人与人关系会因而发生的变化，那这小说没写完整。
+
+被称为`科幻先生`的`Dean of science fiction writers`海因莱因，对于科幻小说的社会意义，曾与Dalgliesh有过一场争辩。他说，任何关于机器的小说，如果不去揣测机器周遭社会中人与人关系会因而发生的变化，那这小说没写完整。
 
 现代人用各种工具，都停留在Verne时代。
-什么意思？就是停留在：`奇妙机器如何在宇宙中巴巴闭闭`的时代。
-
-用着各种工具，只想着如何便利、如何过瘾，完全没思考过权力、控制、渗透...
+Verne即：`奇妙机器如何在宇宙中巴巴闭闭`的时代。用着各种工具，只想着如何便利、如何过瘾，完全没思考过权力、控制、渗透...
 
 > 微信是对中国社会渗透得无比深入的信息传播与媒体出版工具，这样的产品不可能仅仅是一种便利。它塑造着我们的精神。它定义着我们的文化生活。
 
@@ -112,6 +115,51 @@ Google [About the company](https://www.google.com/about/our-company/)
 利用工具，但不要被工具左右。
 
 
+如果你不满微信窃取你的通讯，窥探你的隐私；
+
+如果你反感苹果无端端移交你的资料、数据给一个你`选都没得选`的公司；
+
+如果你憎恨一切如360、百度全家桶这些流氓行径，
+
+你应该说出来。
+
+可以的话，你更应该有其他替换方案，有别的你能够自由选择，令你满意的方式。
+
+不满足于公众号提供的服务，你可以自己建站，wordpress、jekyll、z-blog、Bo-Blog，再不然Lofter、简书、github pages都能搭建一个完全属于你自己的园地。
+
+
+
+#### 仍然想完美分享到朋友圈 ####
+
+
+微信在17年完全拒绝了未接入JSSDK的分享功能。自此以后，未符合要求的接入，都没有缩略图显示了。只能分享一条`回形针`的链接。
+
+如果你想接入，首先你要有独立域名，而且最重要的是你的域名必须**在中国备案**。然后忍受微信各种政策、审查、客服，你就可以拥有那个`分享`功能。
+
+##### 为什么会有这么天真的人 #####
+
+会天真的认为，筑起了`围墙`，就能阻隔起一切？
+
+
+##### 利用工具，但不要被工具左右 #####
+
+现在，你可以通过一个App`魔法分享`，简单的使用*完美的*分享功能。
+
+[魔法分享](https://github.com/ShinChven/ShareMoments)
+
+目前可以对Youtube、Twitter等不存在的App进行朋友圈分享，并且可以复制地址，例如独立网站的地址，进行朋友圈分享。
+
+它会截取文中的图片，用作缩略图。
+
+
+![分享截图](https://i.imgur.com/uiJKDYY.png)
+
+
+既然有这么多方法，
+
+为什么还要囿于围墙？
+
+
 
 > 好好活着，好好奋斗，早日让自己有能力离开围城。
 
@@ -119,6 +167,7 @@ Google [About the company](https://www.google.com/about/our-company/)
 ![只是一张贴图](https://i.imgur.com/E7H6n6S.jpg)
 
 :+1:
+
 
 
 

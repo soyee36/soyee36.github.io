@@ -51,27 +51,7 @@ CC 4.0 BY-SA
 这一步是用[Liquid Templating](https://jekyllrb.com/docs/templates/)实现的。在你站点的根目录，建一个`_includes`的文件夹，在里面建一个`collecttags.html`的文件，当然你也可以建其它名字，内容如下：
 
 
-```bash
-
-  {% assign rawtags = "" %}
-  {% for post in site.posts %}
-    {% assign ttags = post.tags | join:'|' | append:'|' %}
-      {% assign rawtags = rawtags | append:ttags %}
-      {% endfor %}
-      {% assign rawtags = rawtags | split:'|' | sort %}
-
-      {% assign site.tags = "" %}
-      {% for tag in rawtags %}
-        {% if tag != "" %}
-            {% if tags == "" %}
-                  {% assign tags = tag | split:'|' %}
-                      {% endif %}
-                          {% unless tags contains tag %}
-                                {% assign tags = tags | join:'|' | append:'|' | append:tag | split:'|' %}
-                                    {% endunless %}
-                                      {% endif %}
-                                      {% endfor %}
-```
+![Imgur](https://i.imgur.com/cYFNFrt.png)
 
 
 这个文件的作用，就是建立起站点的tags list.
@@ -81,13 +61,8 @@ CC 4.0 BY-SA
 
 通常地，我们把标签放在文首，或者文末。这里以放在文首为例。在刚刚的文件夹`_includes`里再建一个`head.html`的文件，里面放入以下内容：
 
-```bash
 
-  {% if site.tags != "" %}
-    {% include collecttags.html %}
-    {% endif %}
-
-```
+![Imgur](https://i.imgur.com/ZGcMhHt.png)
 
     
 如此一来，我们就定义了Jekyll博客的文首，而它会指引执行上述`collecttags.html`的文件代码，而且只执行一次。
@@ -97,17 +72,9 @@ CC 4.0 BY-SA
 
 我们每篇文章都有一个模板，放在`_layouts`目录下。我们希望每篇文章都显示标签，则需要在`post`模板里加入以下语法：
 
-```bash
 
 
-  <span>[
-    {% for tag in page.tags %}
-        {% capture tag_name %}{{ tag }}{% endcapture %}
-            <a href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
-              {% endfor %}
-              ]</span>
-
-```
+![Imgur](https://i.imgur.com/V7nXDfJ.png)
 
 
 ![文首标签](https://i.imgur.com/IChEDB1.png)
@@ -134,24 +101,7 @@ CC 4.0 BY-SA
 在`_layouts`文件夹里新增`tagpage.html`文件：
 
 
-```bash
-
-  ---
-  layout: default
-  ---
-  <div class="post">
-  <h1>Tag: {{ page.tag }}</h1>
-  <ul>
-  {% for post in site.tags[page.tag] %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date_to_string }})<br>
-        {{ post.description }}
-          </li>
-          {% endfor %}
-          </ul>
-          </div>
-          <hr>
-
-```
+![Imgur](https://i.imgur.com/tMJZbp9.png)
 
 
 
@@ -169,31 +119,17 @@ CC 4.0 BY-SA
 
 在`_includes`目录下新建一个`archive.html`文件：
 
-```bash
 
-  <h2>Archive</h2>
-  {% capture temptags %}
-    {% for tag in site.tags %}
-        {{ tag[1].size | plus: 1000 }}#{{ tag[0] }}#{{ tag[1].size }}
-          {% endfor %}
-          {% endcapture %}
-          {% assign sortedtemptags = temptags | split:' ' | sort | reverse %}
-          {% for temptag in sortedtemptags %}
-            {% assign tagitems = temptag | split: '#' %}
-              {% capture tagname %}{{ tagitems[1] }}{% endcapture %}
-                <a href="/tag/{{ tagname }}"><code class="highligher-rouge"><nobr>{{ tagname }}</nobr></code></a>
-                {% endfor %}
 
-```
+![Imgur](https://i.imgur.com/mNyepaE.png)
 
 
 语法可以随意按照你希望的样子进行调整。
 
 然后，为了实现上面说的方式，我们把如下语句放在`_layouts/tagpage.html`里：
 
-```
-  {% include archive.html %}
-```
+
+![Imgur](https://i.imgur.com/Mujus55.png)
 
 
 上传到你的仓库，收工！如果你希望自动生成`标签名称.md`，可以写一段JS代码实现。

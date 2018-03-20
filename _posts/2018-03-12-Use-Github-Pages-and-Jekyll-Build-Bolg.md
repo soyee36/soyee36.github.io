@@ -1,6 +1,8 @@
-﻿tags: Github_Pages, Jekyll, Blog
-
-categories: blog
+﻿---
+tags: Jekyll
+title: Build Your Own Blog Base on Github Pages+Jekyll
+excerpt: 简单搭建个人独立博客
+---
 
 Also published in https://soandcandy.us
 

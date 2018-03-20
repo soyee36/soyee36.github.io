@@ -1,4 +1,7 @@
-tags: VIM, Markdown
+---
+tags: Markdown
+excerpt: VIM the God of Markdown Editor
+---
 
 Also published on [S&C](https://soandcandy.us)
 

@@ -1,5 +1,5 @@
 ---
-tags: RubyGems bundle
+tags: IT
 title: 笔记-更新bundle使插件支持新特性
 excerpt: 譬如Github Pages旧版本jekyll并不支持emoji，新版本才可以。
 ---

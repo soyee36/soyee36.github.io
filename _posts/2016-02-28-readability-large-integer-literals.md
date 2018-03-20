@@ -2,7 +2,7 @@
 layout: post
 title:  Readability of large integer literals
 date:   2017-02-28 22:17:00
-categories: beginner
+tags: IT 
 ---
 
 Sometimes we write programs which contain literals numeric. Large numbers can be very difficult to read.

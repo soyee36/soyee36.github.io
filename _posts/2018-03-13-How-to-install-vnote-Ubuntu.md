@@ -1,4 +1,8 @@
-tags: VNote, Markdown, Ubuntu, AppImage
+---
+tags: Systems Markdown
+title: VNote Markdown Editor in Ubuntu
+excerpt: VNote是受VIM启发而专门针对Markdown优化的工具
+---
 
 Also published on [S&C](https://soandcandy.us)
 

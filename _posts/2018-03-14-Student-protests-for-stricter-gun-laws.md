@@ -1,4 +1,9 @@
-tags:USA, student, gun laws,
+---
+tags: USA
+title: 全美学生上街，要求严控枪支
+excerpt: 3月14日，全美近3000所学校的高中生们联合上街
+---
+
 
 Also published on [S&C](https://soandcandy.us)
 

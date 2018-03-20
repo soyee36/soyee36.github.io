@@ -1,7 +1,7 @@
 ---
-tags: jekyll YAML github
+tags: Jekyll
 title: Jekyll Writing Skills
-excerpt: 备忘
+excerpt: 备忘手记
 ---
 
 

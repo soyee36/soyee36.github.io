@@ -1,6 +1,8 @@
-﻿
-Tags: blog, test
-Categories: blog
+﻿---
+tags: IT Systems Media
+title: Ubuntu shares to Windows10
+excerpt: Samba的运用
+---
 
 Also published in https://soandcandy.us
 

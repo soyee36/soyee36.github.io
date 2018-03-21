@@ -209,6 +209,6 @@ layout: default
 :bowtie:
 
 
-P.S. 以上部分`Liquid`代码，为了不被jekyll执行，需要用`{% raw %}`、`{% endraw %}`包起Markdown语法。
+P.S. 以上部分`Liquid`代码，为了不被jekyll执行，需要用`raw`and`endraw`包起Markdown语法。
 
 
